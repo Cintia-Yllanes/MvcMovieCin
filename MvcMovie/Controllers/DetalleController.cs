@@ -3,7 +3,7 @@ using MvcMovie.Models;
 
 namespace MvcMovie.Controllers
 {
-    public class MoviesController : Controller
+    public class DetalleController : Controller
     {
 
         // GET: Movies

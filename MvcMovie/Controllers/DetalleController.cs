@@ -9,9 +9,9 @@ namespace MvcMovie.Controllers
         // GET: Movies
         public async Task<IActionResult> Index()
         {
-            var listMovies = new List<Movie>();
+            var listMovies = new List<Movie2>();
 
-            var movie1 = new Movie
+            var movie1 = new Movie2
             {
                 Genre = "Terror",
                 Id = 1,
@@ -21,7 +21,7 @@ namespace MvcMovie.Controllers
             };
             listMovies.Add(movie1);
 
-            var movie2 = new Movie
+            var movie2 = new Movie2
             {
                 Genre = "Terror",
                 Id = 1,
@@ -44,7 +44,7 @@ namespace MvcMovie.Controllers
 
             //Simulación de creación de un objeto (model)
             //Mas adelante vamos a ver como usar una base de datos
-            var movie = new Movie
+            var movie = new Movie2
             {
                 Genre = "Terror",
                 Id = 1,
